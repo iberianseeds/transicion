@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cambiando escritorios</title>
+	<meta name="description" content="Cambiando escritorios" />
+	<meta name="keywords" content="Transiciones CSS, Animación CSS, Cubos CSS" />
+	<meta name="author" content="Valor de Gestión" />
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/basica.css" />
+	<link rel="stylesheet" type="text/css" href="css/transicion.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<script src="https://cdn.jsdelivr.net/npm/topbar@0.1.4/topbar.min.js"></script>
+</head>
+
+<body>
+	<div class="botonera">
+		<button data-transicion="volea" class="botonTransicion">volea</button>
+		<button data-transicion="paginauno" class="botonTransicion">uno</button>
+		<button data-transicion="paginados" class="botonTransicion">dos</button>
+		<button data-transicion="paginatres" class="botonTransicion">tres</button>
+	</div>
+	
+	<div id="perspek" class="perspectiva">
+		<div id="volea" class="paginacompleta fondo1">
+			<img src="./logo.png" alt="">
+		</div>
+		<div id="paginauno" class="paginacompleta fondo2">
+			<h1><strong>Página UNO de TRES</strong><br /></h1>
+		</div>
+		<div id="paginados" class="paginacompleta fondo3">
+			<h1><strong>Página DOS de TRES</strong><br /></h1>
+		</div>
+		<div id="paginatres" class="paginacompleta fondo4">
+			<h1><strong>Página TRES de TRES</strong><br /></h1>
+		</div>
+	</div>
+	<script src="js/transicion.js"></script>
+	<script src="js/run.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+@import './centrarEnDIV';
+
+body {
+	background: rgb(random(55), random(55), random(55));
+}
+
+.paginacompleta h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;;
+	font-size: 6rem;
+	font-weight: 100;
+	line-height: 1.5;
+	margin: 20px;
+	position: absolute;
+	text-align: center;
+	top: 25%;
+	width: 90%;
+}
+
+.paginacompleta img {
+	@include centrarEnDIV;
+	width: 33%;
+}
+
+@for $i from 1 through 9 {
+	.fondo#{$i} {
+		color:rgb(random(55), random(55), random(55));
+		background: rgb(random(55)+200, random(55)+200, random(55)+200);
+	}
+}
+
+.botonera {
+	position: absolute;
+	width: 100px;
+	z-index: 999999;
+	top: 40px;
+	left: 40px;
+}
+
+.botonera button,
+.botonTransicion {
+	border: none;
+	font-size: 1em;
+	font-weight: 700;
+	margin: 10px 0 20px;
+	padding: 0px 20px;
+	line-height: 50px;
+	height: 50px;
+	letter-spacing: 1px;
+	width: 100%;
+	cursor: pointer;
+	display: block;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+	box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+	user-select: none;
+}
+
+.botonTransicion {
+	background: #fff;
+	color: #aaa;
+}
+
+.botonera button {
+	margin-bottom: 0;
+}
+
+.botonTransicion:active {
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+

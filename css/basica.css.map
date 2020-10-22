@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA;;QAES;ECHR,UAAU,EADe,UAAU;;ADQpC;IACK;EACJ,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,QAAQ,EAAE,MAAM",
+"sources": ["../scss/basica.scss","../scss/_boxsizing.scss"],
+"names": [],
+"file": "basica.css"
+}

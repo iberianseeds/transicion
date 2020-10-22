@@ -1,0 +1,35 @@
+@keyframes kfSacaCubo {
+	50% {
+		animation-timing-function: ease-out;
+		transform: translateX(-50%) translateZ(-180px) rotateY(-45deg);
+	}
+
+	100% {
+		opacity: .3;
+		transform: translateX(-100%) rotateY(-90deg);
+	}
+}
+
+@keyframes kfMeteCubo {
+	0% {
+		opacity: .3;
+		transform: translateX(100%) rotateY(90deg);
+	}
+
+	50% {
+		animation-timing-function: ease-out;
+		transform: translateX(50%) translateZ(-180px) rotateY(45deg);
+	}
+}
+
+
+.sacaCubo {
+	transform-origin: 100% 50%;
+	animation: kfSacaCubo .5s both ease-in;
+}
+
+.meteCubo {
+	transform-origin: 0% 50%;
+	animation: kfMeteCubo .5s both ease-in;
+}
+

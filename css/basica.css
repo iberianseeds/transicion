@@ -1,0 +1,13 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+/*# sourceMappingURL=basica.css.map */

@@ -1,0 +1,34 @@
+@import './cuboIzquierda';
+
+/* La vista superior da la perspectiva - 1500 */
+
+.perspectiva {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	perspective: 1500px;
+}
+
+/* Las vistas a página completa */
+
+.paginacompleta {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	overflow: hidden;
+	backface-visibility: hidden;
+	transform: translate3d(0, 0, 0);
+	transform-style: preserve-3d;
+}
+
+.paginaactual {
+	visibility: visible;
+	z-index: 1;
+}
+
+.paginaprimerplano {
+	z-index: 999;
+}
