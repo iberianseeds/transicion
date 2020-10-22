@@ -1,11 +1,11 @@
 @charset "UTF-8";
 body {
-  background: #2a230b; }
+  background: #0b0311; }
 
 .paginacompleta h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 6rem;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1.5;
   margin: 20px;
   position: absolute;
@@ -27,40 +27,40 @@ body {
   width: 33%; }
 
 .fondo1 {
-  color: #282402;
-  background: #cad8f1; }
+  color: #31171f;
+  background: #fef3fe; }
 
 .fondo2 {
-  color: #353618;
-  background: #e5d1dc; }
+  color: #222a0c;
+  background: #d9edd8; }
 
 .fondo3 {
-  color: #2d2b11;
-  background: #f3ccf4; }
+  color: #37280f;
+  background: #e7ffd4; }
 
 .fondo4 {
-  color: #131701;
-  background: #e7d0ff; }
+  color: #221623;
+  background: #d2ddec; }
 
 .fondo5 {
-  color: #09011e;
-  background: #f3ebfc; }
+  color: #302010;
+  background: #cce5c9; }
 
 .fondo6 {
-  color: #2d1412;
-  background: #cffed0; }
+  color: #22080e;
+  background: #d9cee3; }
 
 .fondo7 {
-  color: #0b270b;
-  background: #fdc9ce; }
+  color: #121010;
+  background: #d0e4ce; }
 
 .fondo8 {
-  color: #0e112d;
-  background: #e0facf; }
+  color: #0f031b;
+  background: #efc9d8; }
 
 .fondo9 {
-  color: #080728;
-  background: #e7dfd9; }
+  color: #0f3406;
+  background: #f0ffe7; }
 
 .botonera {
   position: absolute;
